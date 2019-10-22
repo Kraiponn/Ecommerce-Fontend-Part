@@ -1,0 +1,15 @@
+.UploadFile {
+  margin-bottom: 40px;
+
+    .img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+        img {
+          width: 70%;
+          border: 5px solid #6e6a6a;
+          border-radius: 12px;
+        } 
+    }
+}

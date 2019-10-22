@@ -1,0 +1,26 @@
+.modal{
+  width: 70%;
+  height: 45%;
+  position: fixed;
+  top: 30%;
+  left: 15%;
+  z-index: 500;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 20px 16px;
+  background-color: #ffffff;
+  border: 1px solid #6b6565;
+  box-shadow: 2px 2px 2px #353131;
+  border-radius: 12px;
+  transition: all 0.3s ease-out;
+}
+
+@media (min-width: 550px) {
+  .modal{
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
